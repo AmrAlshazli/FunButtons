@@ -34,6 +34,10 @@ namespace WindowsFormsApplication14
             Random rnd = new Random();
 
             panel1.Location = new Point(rnd.Next(0,300), rnd.Next(0, 300));
+
+            Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+
+            button1.BackColor = randomColor;
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
@@ -41,6 +45,11 @@ namespace WindowsFormsApplication14
             Random rnd = new Random();
 
             panel1.Location = new Point(rnd.Next(0, 300), rnd.Next(0, 300));
+
+            Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+
+            button1.BackColor = randomColor;
+
         }
     }
 }

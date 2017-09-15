@@ -81,7 +81,7 @@ namespace WindowsFormsApplication14
             this.Hide();
             Form2 F = new Form2();
             F.ShowDialog();
-
+            this.Close();
         }
     }
 }
